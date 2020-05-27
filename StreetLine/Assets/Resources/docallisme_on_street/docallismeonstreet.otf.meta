@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e002153565587be7998128d3dea69be6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DOCALLISME ON STREET
+  fontNames:
+  - DOCALLISME ON STREET
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0064f855a35e3d7f8958f6b8aa9b5c49, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
