@@ -1,4 +1,4 @@
-# EPI_JAM_2020_3
+# EPI_JAM_2020_2
 48h Epitech Jam 2nd edition. [THEME: STREET ART]
 
 *HOW TO PLAY :*
@@ -18,4 +18,4 @@
 -   Eraser : 'Right Click'
 -   Reset : 'R'
 -   Show Grid : 'E'
--   Take Screenshot : 'Space'
+-   Take Screenshot : 'Space' (Save location: 'StreetLine_Data/Streetshots')

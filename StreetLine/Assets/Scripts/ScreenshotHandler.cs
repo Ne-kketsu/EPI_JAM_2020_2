@@ -13,10 +13,13 @@ public class ScreenshotHandler : MonoBehaviour
     private Camera myCamera;
     private bool TakeScreenshotOnNextFrame;
     private int StreetshotNbr = 1;
+    private string folder;
     void Awake()
     {
         instance = this;
         myCamera = gameObject.GetComponent<Camera>();
+        folder = Application.dataPath + "/Streetshots";
+        System.IO.Directory.CreateDirectory(folder);
     }
 
     private void OnPostRender()
@@ -30,7 +33,7 @@ public class ScreenshotHandler : MonoBehaviour
             cameraRenderResult.ReadPixels(ScreenshotRect, 0, 0);
 
             byte[] byteArray = cameraRenderResult.EncodeToPNG();
-            string path = Application.dataPath + savePath + "/StreetlineShot_" + StreetshotNbr + ".png";
+            string path = folder + "/StreetlineShot_" + StreetshotNbr + ".png";
             // string path = Application.dataPath + savePath + fileName + ".png";
 
             System.IO.File.WriteAllBytes(path, byteArray);
