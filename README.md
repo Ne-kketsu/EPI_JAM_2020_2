@@ -1,4 +1,4 @@
-# EPI_JAM_2020_3
+# EPI_JAM_2020_2
 48h Epitech Jam 2nd edition. [THEME: STREET ART]
 
 *HOW TO PLAY :*
